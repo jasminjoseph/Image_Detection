@@ -1,8 +1,8 @@
 import cv2
 import numpy
 
-img1 = cv2.imread("book.jpg", cv2.IMREAD_GRAYSCALE)
-img2 = cv2.imread("tiltedBook.jpg", cv2.IMREAD_GRAYSCALE)
+img1 = cv2.imread("stop.jpg", cv2.IMREAD_GRAYSCALE)
+img2 = cv2.imread("stop_sign.jpg", cv2.IMREAD_GRAYSCALE)
 
 orb =cv2.ORB_create()
 keypoints1, descriptor1 = orb.detectAndCompute(img1, None)
